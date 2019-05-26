@@ -36,6 +36,8 @@ public class Solution {
 	/**
 	 * The method creates the string of letters that must be replaced in order to
 	 * make a steady gene.
+	 * 
+	 * @return A string of letters to be replaced.
 	 */
 	public static String getLettersToBeReplaced(String gene) {
 
@@ -61,6 +63,8 @@ public class Solution {
 	/**
 	 * The method calculates the minimum substring to be replaced so that the gene
 	 * is modified to a steady one.
+	 * 
+	 * @return The length of minimum substring to be replaced.
 	 */
 	private static int getLength_MinimumSubstringToBeReplaced(String gene) {
 
